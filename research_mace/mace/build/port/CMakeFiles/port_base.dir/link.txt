@@ -1,0 +1,2 @@
+/usr/bin/ar qc libport_base.a  CMakeFiles/port_base.dir/env.o CMakeFiles/port_base.dir/logger.o CMakeFiles/port_base.dir/file_system.o
+/usr/bin/ranlib libport_base.a

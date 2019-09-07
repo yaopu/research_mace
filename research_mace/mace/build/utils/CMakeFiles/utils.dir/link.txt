@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutils.a  CMakeFiles/utils.dir/string_util.o CMakeFiles/utils.dir/thread_pool.o CMakeFiles/utils.dir/status.o CMakeFiles/utils.dir/statistics.o
+/usr/bin/ranlib libutils.a

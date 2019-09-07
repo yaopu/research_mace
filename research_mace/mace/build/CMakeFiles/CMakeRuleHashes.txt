@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+09ba2f52dbe7722a938374606c31cd1e codegen/CMakeFiles/opencl_kernel_src
+09ba2f52dbe7722a938374606c31cd1e codegen/CMakeFiles/version_src
+37a6ac03c3de9b8fd17c7a89b01e6495 codegen/opencl/encrypt_opencl_kernel.cc
+0f3515e0a7ca9cf6730afed63ecd5faa codegen/version/version.cc
+39b1f367f4c0e09d4d9c536dba2ed21a proto/CMakeFiles/mace_proto_src
+e9bb12bba118387d09d5de70f4588c82 proto/mace.pb.cc

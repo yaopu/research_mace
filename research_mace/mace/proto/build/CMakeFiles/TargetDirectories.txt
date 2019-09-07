@@ -1,0 +1,8 @@
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/proto/build/CMakeFiles/install/strip.dir
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/proto/build/CMakeFiles/install/local.dir
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/proto/build/CMakeFiles/proto.dir
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/proto/build/CMakeFiles/rebuild_cache.dir
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/proto/build/CMakeFiles/install.dir
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/proto/build/CMakeFiles/list_install_components.dir
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/proto/build/CMakeFiles/mace_proto_src.dir
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/proto/build/CMakeFiles/edit_cache.dir

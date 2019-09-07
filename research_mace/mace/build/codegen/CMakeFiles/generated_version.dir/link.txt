@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgenerated_version.a  CMakeFiles/generated_version.dir/version/version.o
+/usr/bin/ranlib libgenerated_version.a

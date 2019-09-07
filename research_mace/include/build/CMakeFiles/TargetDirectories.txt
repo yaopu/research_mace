@@ -1,0 +1,6 @@
+/home/yao/Code/Latest_Code/work_job/Mace/mace/include/build/CMakeFiles/rebuild_cache.dir
+/home/yao/Code/Latest_Code/work_job/Mace/mace/include/build/CMakeFiles/install/strip.dir
+/home/yao/Code/Latest_Code/work_job/Mace/mace/include/build/CMakeFiles/install/local.dir
+/home/yao/Code/Latest_Code/work_job/Mace/mace/include/build/CMakeFiles/edit_cache.dir
+/home/yao/Code/Latest_Code/work_job/Mace/mace/include/build/CMakeFiles/list_install_components.dir
+/home/yao/Code/Latest_Code/work_job/Mace/mace/include/build/CMakeFiles/install.dir

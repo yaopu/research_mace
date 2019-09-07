@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+c6a1f07e9610f76237356ca801d03073 CMakeFiles/mace_proto_src
+526227ac7c8000c6bbbb96a25c9d2762 mace.pb.cc

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/port/linux_base/env.cc
+mace/port/linux_base/env.h
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/port/linux_base/mace/port/linux_base/env.h
+errno.h
+-
+sys/syscall.h
+-
+sys/time.h
+-
+sys/mman.h
+-
+unistd.h
+-
+cstddef
+-
+fstream
+-
+string
+-
+vector
+-
+mace/port/posix/file_system.h
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/port/linux_base/mace/port/posix/file_system.h
+mace/port/posix/time.h
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/port/linux_base/mace/port/posix/time.h
+mace/utils/logging.h
+/home/yao/Code/Latest_Code/work_job/Mace/mace/mace/port/linux_base/mace/utils/logging.h
+

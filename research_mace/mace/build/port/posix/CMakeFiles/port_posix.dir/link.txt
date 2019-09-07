@@ -1,0 +1,2 @@
+/usr/bin/ar qc libport_posix.a  CMakeFiles/port_posix.dir/file_system.o
+/usr/bin/ranlib libport_posix.a

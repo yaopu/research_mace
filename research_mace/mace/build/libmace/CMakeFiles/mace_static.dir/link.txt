@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmace_static.a  CMakeFiles/mace_static.dir/capability.o CMakeFiles/mace_static.dir/mace.o
+/usr/bin/ranlib libmace_static.a

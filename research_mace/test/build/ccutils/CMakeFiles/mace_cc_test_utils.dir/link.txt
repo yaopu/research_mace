@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmace_cc_test_utils.a  CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.o
+/usr/bin/ranlib libmace_cc_test_utils.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libport_linux.a  CMakeFiles/port_linux.dir/env.o
+/usr/bin/ranlib libport_linux.a
