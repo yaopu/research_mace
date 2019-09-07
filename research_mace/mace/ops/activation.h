@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+///激活函数
 #ifndef MACE_OPS_ACTIVATION_H_
 #define MACE_OPS_ACTIVATION_H_
 
