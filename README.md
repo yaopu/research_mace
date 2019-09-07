@@ -4,5 +4,10 @@
 MACE 全称 Mobile AI Compute Engine (MACE)，是小米公司开源的一个深度学习推理框架，它针对不同的移动端计算平台做了专门的优化
 这里，我主要研究OPS算子部分.
 
+[Ubuntu下安装,中文教程](INSTALL_cn.md)
+
+
 [About ME](https://yaopu.github.io)
+我是中科院的博士生，专业有些不对口！我在努力中。。。。
+目前处在应届求职中
 
