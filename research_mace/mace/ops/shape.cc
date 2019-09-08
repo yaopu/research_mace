@@ -39,7 +39,8 @@ class ShapeOp : public Operation {
         "has_data_format", 0);
     if (has_df && input->data_format() == DataFormat::NCHW &&
         input->dim_size() != 4) {
-      // transpose NCHW to NHWC for cpu runtime
+      // transpose NCHW to NHWC for cpu runtime 
+      ///https://intel.github.io/mkl-dnn/understanding_memory_formats.html
       output_data[0] = static_cast<int32_t>(input->dim(0));
       output_data[1] = static_cast<int32_t>(input->dim(2));
       output_data[2] = static_cast<int32_t>(input->dim(3));

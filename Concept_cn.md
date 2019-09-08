@@ -1,0 +1,3 @@
+NCHW
+
+NHWC 
