@@ -8,9 +8,6 @@ MACE 全称 Mobile AI Compute Engine (MACE)，是小米公司开源的一个深�
 [数据类型] (DataType_cn.md)  
 [算子(OPS)模块](OPS_Mode.md)  
 [MACE中的C++知识,参考](https://github.com/yaopu/Cplusplus_Optimization)  
-[About ME](https://yaopu.github.io)  
+[About ME(个人主页)](https://yaopu.github.io)  
 我是中科院的博士生，专业有些不对口,但我也是一路写C++,CUDA过来的，领域不是人工智能！    
-我在努力中。。。。  
-目前处在应届求职中,欢迎给我面试的机会！  
-我的微信：1417511526  
 
