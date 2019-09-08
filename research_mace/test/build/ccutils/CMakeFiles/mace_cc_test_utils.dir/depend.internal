@@ -4,4 +4,4 @@
 ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.o
  ../ccutils/mace/ops/ops_test_util.h
  ../ccutils/mace/ops/testing/test_utils.h
- /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/ccutils/mace/ops/ops_test_util.cc
+ /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/ccutils/mace/ops/ops_test_util.cc

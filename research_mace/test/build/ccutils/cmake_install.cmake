@@ -1,4 +1,4 @@
-# Install script for directory: /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/ccutils
+# Install script for directory: /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/ccutils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test
+CMAKE_SOURCE_DIR = /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build
+CMAKE_BINARY_DIR = /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build
 
 # Include any dependencies generated for this target.
 include ccutils/CMakeFiles/mace_cc_test_utils.dir/depend.make
@@ -59,16 +59,16 @@ include ccutils/CMakeFiles/mace_cc_test_utils.dir/flags.make
 
 ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.o: ccutils/CMakeFiles/mace_cc_test_utils.dir/flags.make
 ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.o: ../ccutils/mace/ops/ops_test_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.o"
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/ccutils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.o -c /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/ccutils/mace/ops/ops_test_util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.o"
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/ccutils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.o -c /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/ccutils/mace/ops/ops_test_util.cc
 
 ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.i"
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/ccutils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/ccutils/mace/ops/ops_test_util.cc > CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.i
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/ccutils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/ccutils/mace/ops/ops_test_util.cc > CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.i
 
 ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.s"
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/ccutils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/ccutils/mace/ops/ops_test_util.cc -o CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.s
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/ccutils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/ccutils/mace/ops/ops_test_util.cc -o CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.s
 
 ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.o.requires:
 
@@ -91,9 +91,9 @@ mace_cc_test_utils_EXTERNAL_OBJECTS =
 ccutils/libmace_cc_test_utils.a: ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.o
 ccutils/libmace_cc_test_utils.a: ccutils/CMakeFiles/mace_cc_test_utils.dir/build.make
 ccutils/libmace_cc_test_utils.a: ccutils/CMakeFiles/mace_cc_test_utils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmace_cc_test_utils.a"
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/ccutils && $(CMAKE_COMMAND) -P CMakeFiles/mace_cc_test_utils.dir/cmake_clean_target.cmake
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/ccutils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mace_cc_test_utils.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmace_cc_test_utils.a"
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/ccutils && $(CMAKE_COMMAND) -P CMakeFiles/mace_cc_test_utils.dir/cmake_clean_target.cmake
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/ccutils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mace_cc_test_utils.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ccutils/CMakeFiles/mace_cc_test_utils.dir/build: ccutils/libmace_cc_test_utils.a
@@ -105,10 +105,10 @@ ccutils/CMakeFiles/mace_cc_test_utils.dir/requires: ccutils/CMakeFiles/mace_cc_t
 .PHONY : ccutils/CMakeFiles/mace_cc_test_utils.dir/requires
 
 ccutils/CMakeFiles/mace_cc_test_utils.dir/clean:
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/ccutils && $(CMAKE_COMMAND) -P CMakeFiles/mace_cc_test_utils.dir/cmake_clean.cmake
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/ccutils && $(CMAKE_COMMAND) -P CMakeFiles/mace_cc_test_utils.dir/cmake_clean.cmake
 .PHONY : ccutils/CMakeFiles/mace_cc_test_utils.dir/clean
 
 ccutils/CMakeFiles/mace_cc_test_utils.dir/depend:
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/ccutils /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/ccutils /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/ccutils/CMakeFiles/mace_cc_test_utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/ccutils /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/ccutils /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/ccutils/CMakeFiles/mace_cc_test_utils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ccutils/CMakeFiles/mace_cc_test_utils.dir/depend
 

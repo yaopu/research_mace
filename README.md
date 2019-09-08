@@ -5,6 +5,7 @@ MACE 全称 Mobile AI Compute Engine (MACE)，是小米公司开源的一个深�
 这里，我主要研究OPS算子部分.
 
 [Ubuntu下安装,中文教程](INSTALL_cn.md)
+[数据类型] ()
 [算子(OPS)模块](OPS_Mode.md)
 [MACE中的C++知识,参考](https://github.com/yaopu/Cplusplus_Optimization)
 [About ME](https://yaopu.github.io)

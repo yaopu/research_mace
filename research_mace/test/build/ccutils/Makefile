@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test
+CMAKE_SOURCE_DIR = /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build
+CMAKE_BINARY_DIR = /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/CMakeFiles /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/ccutils/CMakeFiles/progress.marks
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(MAKE) -f CMakeFiles/Makefile2 ccutils/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build/CMakeFiles 0
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/CMakeFiles /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/ccutils/CMakeFiles/progress.marks
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(MAKE) -f CMakeFiles/Makefile2 ccutils/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(MAKE) -f CMakeFiles/Makefile2 ccutils/clean
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(MAKE) -f CMakeFiles/Makefile2 ccutils/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(MAKE) -f CMakeFiles/Makefile2 ccutils/preinstall
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(MAKE) -f CMakeFiles/Makefile2 ccutils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(MAKE) -f CMakeFiles/Makefile2 ccutils/preinstall
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(MAKE) -f CMakeFiles/Makefile2 ccutils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ccutils/CMakeFiles/mace_cc_test_utils.dir/rule:
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(MAKE) -f CMakeFiles/Makefile2 ccutils/CMakeFiles/mace_cc_test_utils.dir/rule
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(MAKE) -f CMakeFiles/Makefile2 ccutils/CMakeFiles/mace_cc_test_utils.dir/rule
 .PHONY : ccutils/CMakeFiles/mace_cc_test_utils.dir/rule
 
 # Convenience name for target.
@@ -122,22 +122,22 @@ mace_cc_test_utils: ccutils/CMakeFiles/mace_cc_test_utils.dir/rule
 
 # fast build rule for target.
 mace_cc_test_utils/fast:
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(MAKE) -f ccutils/CMakeFiles/mace_cc_test_utils.dir/build.make ccutils/CMakeFiles/mace_cc_test_utils.dir/build
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(MAKE) -f ccutils/CMakeFiles/mace_cc_test_utils.dir/build.make ccutils/CMakeFiles/mace_cc_test_utils.dir/build
 .PHONY : mace_cc_test_utils/fast
 
 # target to build an object file
 mace/ops/ops_test_util.o:
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(MAKE) -f ccutils/CMakeFiles/mace_cc_test_utils.dir/build.make ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.o
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(MAKE) -f ccutils/CMakeFiles/mace_cc_test_utils.dir/build.make ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.o
 .PHONY : mace/ops/ops_test_util.o
 
 # target to preprocess a source file
 mace/ops/ops_test_util.i:
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(MAKE) -f ccutils/CMakeFiles/mace_cc_test_utils.dir/build.make ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.i
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(MAKE) -f ccutils/CMakeFiles/mace_cc_test_utils.dir/build.make ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.i
 .PHONY : mace/ops/ops_test_util.i
 
 # target to generate assembly for a file
 mace/ops/ops_test_util.s:
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(MAKE) -f ccutils/CMakeFiles/mace_cc_test_utils.dir/build.make ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.s
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(MAKE) -f ccutils/CMakeFiles/mace_cc_test_utils.dir/build.make ccutils/CMakeFiles/mace_cc_test_utils.dir/mace/ops/ops_test_util.s
 .PHONY : mace/ops/ops_test_util.s
 
 # Help Target
@@ -163,6 +163,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

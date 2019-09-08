@@ -23,20 +23,21 @@
 
 #ifdef MACE_ENABLE_OPENCL
 #include "mace/ops/opencl/image/addn.h"
-#endif  // MACE_ENABLE_OPENCL
+#endif // MACE_ENABLE_OPENCL
 #include "mace/utils/memory.h"
 
 namespace mace {
 namespace ops {
 
-template<DeviceType D, class T>
-class AddNOp;
+template <DeviceType D, class T> class AddNOp;
 
-template<>
-class AddNOp<DeviceType::CPU, float> : public Operation {
- public:
-  explicit AddNOp(OpConstructContext *context)
-      : Operation(context) {}
+template <> class AddNOp<DeviceType::CPU, float> : public Operation {
+public:
+  //传入工作平台，构造函数
+  explicit AddNOp(
+      OpConstructContext
+          *context) // explicit关键字的作用就是防止类构造函数的隐式自动转换
+      : Operation(context) {} //
 
   MaceStatus Run(OpContext *context) override {
     MACE_UNUSED(context);
@@ -62,11 +63,9 @@ class AddNOp<DeviceType::CPU, float> : public Operation {
 };
 
 #ifdef MACE_ENABLE_OPENCL
-template<>
-class AddNOp<DeviceType::GPU, float> : public Operation {
- public:
-  explicit AddNOp(OpConstructContext *context)
-      : Operation(context) {
+template <> class AddNOp<DeviceType::GPU, float> : public Operation {
+public:
+  explicit AddNOp(OpConstructContext *context) : Operation(context) {
     if (context->GetOpMemoryType() == MemoryType::GPU_IMAGE) {
       kernel_ = make_unique<opencl::image::AddNKernel>();
     } else {
@@ -79,41 +78,40 @@ class AddNOp<DeviceType::GPU, float> : public Operation {
     for (size_t i = 1; i < n; ++i) {
       MACE_CHECK(inputs_[0]->dim_size() == inputs_[i]->dim_size());
       MACE_CHECK(inputs_[0]->size() == inputs_[i]->size())
-        << "Input 0: " << MakeString(inputs_[0]->shape())
-        << ", size: " << inputs_[0]->size() << ". Input " << i << ": "
-        << MakeString(inputs_[i]->shape()) << ", size: " << inputs_[i]->size();
+          << "Input 0: " << MakeString(inputs_[0]->shape())
+          << ", size: " << inputs_[0]->size() << ". Input " << i << ": "
+          << MakeString(inputs_[i]->shape())
+          << ", size: " << inputs_[i]->size();
     }
 
     return kernel_->Compute(context, inputs_, output_tensor);
   }
 
- private:
+private:
   std::unique_ptr<OpenCLAddNKernel> kernel_;
 };
-#endif  // MACE_ENABLE_OPENCL
+#endif // MACE_ENABLE_OPENCL
 
 void RegisterAddN(OpRegistryBase *op_registry) {
   MACE_REGISTER_OP(op_registry, "AddN", AddNOp, DeviceType::CPU, float);
   MACE_REGISTER_GPU_OP(op_registry, "AddN", AddNOp);
   MACE_REGISTER_OP_CONDITION(
       op_registry,
-      OpConditionBuilder("AddN")
-          .SetDevicePlacerFunc(
-              [](OpConditionContext *context) -> std::set<DeviceType> {
-                auto op = context->operator_def();
-                if (op->output_shape_size() != op->output_size()) {
-                  return {DeviceType::CPU, DeviceType::GPU};
-                }
-                int has_data_format =
-                    ProtoArgHelper::GetOptionalArg<OperatorDef, int>(
-                        *op, "has_data_format", 0);
-                if (!has_data_format ||
-                    op->output_shape(0).dims_size() != 4) {
-                  return {DeviceType::CPU};
-                }
-                return {DeviceType::CPU, DeviceType::GPU};
-              }));
+      OpConditionBuilder("AddN").SetDevicePlacerFunc(
+          [](OpConditionContext *context) -> std::set<DeviceType> {
+            auto op = context->operator_def();
+            if (op->output_shape_size() != op->output_size()) {
+              return {DeviceType::CPU, DeviceType::GPU};
+            }
+            int has_data_format =
+                ProtoArgHelper::GetOptionalArg<OperatorDef, int>(
+                    *op, "has_data_format", 0);
+            if (!has_data_format || op->output_shape(0).dims_size() != 4) {
+              return {DeviceType::CPU};
+            }
+            return {DeviceType::CPU, DeviceType::GPU};
+          }));
 }
 
-}  // namespace ops
-}  // namespace mace
+} // namespace ops
+} // namespace mace

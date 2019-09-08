@@ -7,5 +7,5 @@
 *.layout
 *.depend
 *.bk
-*build
+*build*
 *.vscode

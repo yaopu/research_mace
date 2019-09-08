@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/ccutils 
+CXX_INCLUDES = -I/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/ccutils 
 

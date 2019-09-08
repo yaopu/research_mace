@@ -78,13 +78,13 @@ mace/core/tensor.h
 gtest/gtest.h
 ../ccutils/mace/ops/testing/gtest/gtest.h
 
-/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/ccutils/mace/ops/ops_test_util.cc
+/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/ccutils/mace/ops/ops_test_util.cc
 mace/ops/ops_test_util.h
-/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/ccutils/mace/ops/mace/ops/ops_test_util.h
+/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/ccutils/mace/ops/mace/ops/ops_test_util.h
 mace/core/memory_optimizer.h
-/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/ccutils/mace/ops/mace/core/memory_optimizer.h
+/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/ccutils/mace/ops/mace/core/memory_optimizer.h
 mace/utils/memory.h
-/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/ccutils/mace/ops/mace/utils/memory.h
+/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/ccutils/mace/ops/mace/utils/memory.h
 mace/core/net_def_adapter.h
-/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/mace/test/ccutils/mace/ops/mace/core/net_def_adapter.h
+/home/yao/Code/Latest_Code/work_job/Mace/researh_mace/research_mace/test/ccutils/mace/ops/mace/core/net_def_adapter.h
 
